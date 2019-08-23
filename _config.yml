@@ -1,3 +1,5 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
 title: FITSEC @ Florida Tech
 description: Florida Tech's student lead cybersecurity team
+github:
+  is_project_page: false
