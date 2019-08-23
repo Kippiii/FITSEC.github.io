@@ -1,4 +1,4 @@
-![About](./button_about-us.png) | ![Get Involved](./button_get-involved.png) | ![Writeups](./button_writeups.png) | ![Discord](./button_discord.png)
+![About](./button_about-us.png) | ![Get Involved](./button_get-involved.png) | ![Writeups](./button_writeups.png) | [![Discord](./button_discord.png)](https://discord.gg/BHaFwKp)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FITSEC/FITSEC.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
