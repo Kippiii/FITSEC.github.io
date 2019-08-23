@@ -1,4 +1,4 @@
-<img src="https://github.com/FITSEC/FITSEC.github.io/blob/master/button_your-text-here.png" />
+<img src="./button_your-text-here.png" />
 
 ## Welcome to GitHub Pages
 
