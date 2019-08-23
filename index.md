@@ -6,7 +6,7 @@
 ### CTF (Capture the Flag)
   Info here
 
-### CCDC (COllegiate Cyber Defense Competition)
+### CCDC (Collegiate Cyber Defense Competition)
   Info here
 
 
