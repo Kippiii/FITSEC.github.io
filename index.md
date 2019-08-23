@@ -1,4 +1,4 @@
-[![About](./button_about-us.png)](http://fitsec.github.io) | ![Get Involved](./button_get-involved.png) | ![Writeups](./button_writeups.png) | [![Discord](./button_discord.png)](https://discord.gg/BHaFwKp)
+[![About](./button_about-us.png)](http://fitsec.github.io) | [![Get Involved](./button_get-involved.png)](./getinvilved.html) | ![Writeups](./button_writeups.png) | [![Discord](./button_discord.png)](https://discord.gg/BHaFwKp)
 ## Offensive and Defensive Cybsersecurity
 
 You can use the [editor on GitHub](https://github.com/FITSEC/FITSEC.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
