@@ -1,5 +1,5 @@
-<img src="./button_your-text-here.png" />
 
+![](./button_your-text-here.png)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/FITSEC/FITSEC.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
