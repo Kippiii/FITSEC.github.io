@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#F00;
+	background-image:linear-gradient(red,black);
+}
+#container{
+	width:80%;
+	border:thick solid #000;
+	background-color:#DDD;
+	margin:auto;
+	text-align:center;
+}
+#container nav table {
+	width:100%;
+}
+#container nav table tr td {
+	width:25%;
+}
