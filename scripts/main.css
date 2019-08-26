@@ -1,19 +1,26 @@
 @charset "utf-8";
+
 /* CSS Document */
-body{
-	background-color:#F00;
-	background-image:linear-gradient(red,black);
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F00;
+    background-image: linear-gradient(#F00, #000);
 }
-#container{
-	width:80%;
-	border:thick solid #000;
-	background-color:#DDD;
-	margin:auto;
-	text-align:center;
+
+#container {
+    width: 80%;
+    border: thick solid #000;
+    background-color: #DDD;
+    margin: auto;
+    text-align: center;
 }
+
 #container nav table {
-	width:100%;
+    width: 100%;
 }
+
 #container nav table tr td {
-	width:25%;
+    width: 25%;
 }
