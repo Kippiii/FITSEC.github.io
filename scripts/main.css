@@ -2,11 +2,47 @@
 
 /* CSS Document */
 
+@font-face {
+    font-family: Dodger;
+    src: url(../fonts/dodger3_1.ttf);
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+    }
+    .nav.navbar-nav,
+    .navbar-header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
 body {
     width: 100%;
     height: 100%;
-    background-color: #F00;
-    background-image: linear-gradient(#F00, #000);
+}
+
+.navbar-brand {
+    text-align: center;
+    font-family: Dodger;
+}
+
+.navbar a,
+.navbar li,
+.navbar li a {
+    font-family: Dodger;
+    color: #770000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: Dodger;
+    color: #770000;
+    font-weight: bold;
 }
 
 #container {
@@ -15,12 +51,24 @@ body {
     background-color: #DDD;
     margin: auto;
     text-align: center;
+    color: 000;
 }
 
-#container nav table {
+#background {
+    position: fixed;
     width: 100%;
+    height: 100%;
+    z-index: -99;
+    background-color: #000;
+    color: #00C;
 }
 
-#container nav table tr td {
-    width: 25%;
+#bgCode {
+    color: #770000;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-family: Dodger;
 }
