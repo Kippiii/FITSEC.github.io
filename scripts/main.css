@@ -45,15 +45,6 @@ h4 {
     font-weight: bold;
 }
 
-#container {
-    width: 80%;
-    border: thick solid #000;
-    background-color: #DDD;
-    margin: auto;
-    text-align: center;
-    color: 000;
-}
-
 #background {
     position: fixed;
     width: 100%;
