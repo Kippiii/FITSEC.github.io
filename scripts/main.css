@@ -7,18 +7,6 @@
     src: url(../fonts/dodger3_1.ttf);
 }
 
-@media (min-width: 768px) {
-    .navbar-nav {
-        float: none;
-    }
-    .nav.navbar-nav,
-    .navbar-header {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-}
-
 body {
     width: 100%;
     height: 100%;
