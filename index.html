@@ -18,25 +18,30 @@
     <!-- InstanceEndEditable -->
 </head>
 
-<body onload="genBackground()">
+<body class='pt-5' onload="genBackground()">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><img src="img/FITSECCrest.png" height="30" /></a>
-                <a class="navbar-brand" href="index.html">FITSEC</a></div>
-                <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/FITSECCrest.png" height="30" />
+                </a>
+                <a class="navbar-brand" href="index.html">FITSEC</a>
+            </div>
+            <button type="button" class="navbar-toggler collapsed float-right" data-toggle="collapse" data-target="#topFixedNavbar1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="topFixedNavbar1">
                 <ul class="navbar-nav">
-                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us<span class="caret"></span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class='dropdown-item' href="defensiveSecurity.html">Defensive Security</a>
                             <a class='dropdown-item' href="offensiveSecurity.html">Offensive Security</a>
                             <a class='dropdown-item' href="faq.html">FAQ</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Whats Going On<span class="caret"></span></a>
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Whats Going On<span class="caret"></span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class='dropdown-item' href="calendar.html">Calendar</a>
                             <a class='dropdown-item' href="competitions.html">Competitions</a>
@@ -44,12 +49,15 @@
                             <a class='dropdown-item' href="workshops.html">Workshops</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Write Ups<span class="caret"></span></a>
+                    <li class="nav-item dropdown mx-3">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Write Ups<span class="caret"></span></a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class='dropdown-item' href="defensiveSecurity.html">2019</a>
                         </div>
                     </li>
-                    <li class='nav-item'><a href="contact.html" class='nav-link' role='button' aria-expanded='false'>Contact Us<span class="caret"></span></a></li>
+                    <li class='nav-item mx-3'>
+                        <a href="contact.html" class='nav-link' role='button' aria-expanded='false'>Contact Us</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -61,7 +69,7 @@
         <p id="bgCode"></p>
     </div>
 
-    <div class='fluid-container mt-5 mb-3' id="container">
+    <div class='fluid-container mt-3 mb-3' id="container">
         <main>
             <!-- InstanceBeginEditable name="Mainpage" -->
             <br />
@@ -86,7 +94,6 @@
         </main>
         <footer>
             <p>FITSEC @ Florida Tech</p>
-
         </footer>
     </div>
     <script src="scripts/main.js">
