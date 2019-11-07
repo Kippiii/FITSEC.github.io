@@ -30,6 +30,31 @@ $(window).on('load resize', function() {
             }
         )
     }else{
-        $('.dropdown').off('mouseenter mouseleave')
+        //$('.dropdown').unbind('mouseenter mouseleave')
+    }
+})
+
+$(document).on('scroll', function() {
+    $image = $('.nav-image')
+    max_image_height = 50
+    min_image_height = 0
+    if($(document).scrollTop() > 50) {
+        if($image.is(':animated')) {
+            $image.stop()
+        }
+        if($image.height() > min_image_height) {
+            $image.animate({
+                height: min_image_height
+            }, 100)
+        }
+    }else{
+        if($image.is(':animated')) {
+            $image.stop()
+        }
+        if($image.height() < max_image_height) {
+            $image.animate({
+                height: max_image_height
+            }, 100)
+        }
     }
 })
